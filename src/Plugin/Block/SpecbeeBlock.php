@@ -61,7 +61,7 @@ class SpecbeeBlock extends BlockBase implements ContainerFactoryPluginInterface 
     $timezone = $config->get('timezone');
     $datetime = new DrupalDateTime();
     $datetime->setTimezone(new \DateTimeZone($timezone));
-    $date = $datetime->format('d M Y H:i A');
+    $date = $datetime->format('jS M Y H:i A');
     return [
       '#theme' => 'specbee_timezone',
       '#date' => $date,

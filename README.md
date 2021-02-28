@@ -1,4 +1,4 @@
-# specbee Current time Module
+# Specbee Current time Module
 
 ## Features
 
@@ -13,7 +13,7 @@ You can change timezone.
 2. Copy in modules folder.
 3. Enable the specbee module using via drush command `drush en specbee`
 
-## How to configure specbee api key?
+## How to configure specbee timezone?
 
 1. Login as a administrator,
 2. Goto `/admin/config/development/specbee-configuration`
