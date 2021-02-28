@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Code for specbee timezone configuration module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function specbee_theme($existing, $type, $theme, $path) {
+  return [
+    'specbee_timezone' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'date' => NULL,
+      ],
+    ],
+  ];
+}

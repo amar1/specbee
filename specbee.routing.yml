@@ -1,0 +1,7 @@
+specbee.timezone_config_settings:
+  path: '/admin/config/development/specbee-configuration'
+  defaults:
+    _form: '\Drupal\specbee\Form\SpecbeeForm'
+    _title: 'Specbee timezone configuration'
+  requirements:
+    _permission: 'administer site configuration'
